@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.color{
+  width: 90px;
+}
+.color:hover{
+  transition: 0.5s ease;
+  width: 100px;
+}
+.Clear{
+  width: 90px;
+  background-image:linear-gradient(to right,#02aab0,  #00cdac);;
+  border:linear-gradient(blue, lightblue);;
+}
+.Clear:hover{
+  transition: 0.5s ease;
+  width: 100px;
+}
+.Clear:active{
+  background-image:linear-gradient(lightblue,skyblue,azure);
+}
+.saveBtn{
+  background-image:linear-gradient(to right,#02aab0,  #00cdac);;
+  border:linear-gradient(blue, lightblue);;
+  width: 90px;
+}
+.saveBtn:hover{
+  transition: 0.5s ease;
+  width: 100px;
+}
+.saveBtn:active{
+  background-image:linear-gradient(lightblue,skyblue,azure);
+}
+
+.phto{
+  background-image:linear-gradient(to right,#02aab0,  #00cdac);;
+  border:linear-gradient(blue, lightblue);;
+  width: 190px;
+}
+.phto:hover{
+  transition: 1s ease;
+  width: 240px;
+}
+.phto:active{
+  background-image:linear-gradient(lightblue,skyblue,azure);
+}
+
